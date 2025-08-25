@@ -2,7 +2,7 @@
 import { MdDelete } from "react-icons/md";
 import { useDispatch } from "react-redux";
 import toast from "react-hot-toast";
-import { remove } from "../redux/Slices/cartSlice";
+import { remove } from "../redux/slices/cartSlice";
 const CartItem = ({item}) => {
     const dispatch = useDispatch();
     const removeFromCart = () => {
